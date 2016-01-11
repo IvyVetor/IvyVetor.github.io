@@ -1,1 +1,1 @@
-[Wireframe for Blog Index]("imgs/wireframe-blog-index.png")
+[Wireframe for Blog Index](imgs/wireframe-blog-index.png)
