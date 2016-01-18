@@ -2,13 +2,19 @@ header {
   color:#000080;
   font-weight:bold;
   text-align: center;
-
 }
-span {
+#big {
   font-size: 2em;
+}
+#med {
+  font-size: .90em;
+}
+#small {
+  font-size: .75em;
 }
 p {
   color:#000080;
+  font-size: .75em;
   }
 
 a:link {
@@ -19,7 +25,7 @@ a:visited {
 }
 #column1 {
   float:left;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
   margin-right: 25px;
 }
 #column2 {
@@ -34,4 +40,23 @@ a:visited {
 #horizontal-line{
   display:block;
   border:1px solid navy;
-}
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+  Definitely make sure it links correctly at first by doing a css example.  When linking an external file, you are reminded to make sure you know the pathways on your computer and that
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+  I used <div> to break the content into two sections so the idea was "two blocks" with text and have padding and margin take care of the spacing.  That was the hardest part for me.  I still didn't like the way it looked and once I saw the code on the original... Definitely like the original code better :P
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+  I used color, size, font-weight, display, margin, float, padding, and text-align.  I want to play around with float the most because of its possibilities of going left, right, content wrapping around it, using it as a nav bar, floating two sections to the right side by side, etc...
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+  I did use IDs for the header because of the various sizing of it.  I also used it for setting up my two "blocks" of text.  I also used for a specific section I wanted to target.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+  When I saw from the code that they used a table element, it made so much more sense because then adding new links becomes more efficient.  They can add it to the empty cell at the bottom of column two and if they add more, then they can add a new column for those links so that the page does not become two LOOOONG columns.*/
