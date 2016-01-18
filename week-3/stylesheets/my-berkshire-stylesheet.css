@@ -1,0 +1,37 @@
+header {
+  color:#000080;
+  font-weight:bold;
+  text-align: center;
+
+}
+span {
+  font-size: 2em;
+}
+p {
+  color:#000080;
+  }
+
+a:link {
+  color:  #800080;
+}
+a:visited {
+  color: #ff0000;
+}
+#column1 {
+  float:left;
+  padding: 5px 5px 5px 5px;
+  margin-right: 25px;
+}
+#column2 {
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+}
+#geico{
+  text-align:center;
+  margin:auto;
+}
+#horizontal-line{
+  display:block;
+  border:1px solid navy;
+}
