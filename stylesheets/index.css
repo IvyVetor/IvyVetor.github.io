@@ -1,0 +1,6 @@
+#ul2 {
+  list-style: none;
+}
+#ul2 li:before {
+    content: "\2665";
+  }
