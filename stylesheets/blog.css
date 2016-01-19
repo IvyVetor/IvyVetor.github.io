@@ -1,0 +1,14 @@
+#postTitle {
+  font-size: 25px;
+  color: #800040;
+}
+h2 {
+  font-size: 15px;
+  color: #800040;
+}
+
+#postlinks {
+  text-align: center;
+  border: 2px solid #FF69B4;
+  padding: 10px 10px 10px 10px;
+}
