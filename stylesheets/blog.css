@@ -11,4 +11,12 @@ h2 {
   text-align: center;
   border: 2px solid #FF69B4;
   padding: 10px 10px 10px 10px;
+
+}
+#ulNavPosts {
+  padding: 10px;
+}
+#liNavPosts {
+  display: inline;
+  padding: 0px 25px 0px 25px;
 }
