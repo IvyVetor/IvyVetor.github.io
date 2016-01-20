@@ -1,3 +1,6 @@
+
+
+
 What does `puts` do?
 
   `puts` will return nil and print the output to the terminal with a new line
