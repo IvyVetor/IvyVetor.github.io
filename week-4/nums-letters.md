@@ -1,4 +1,6 @@
-
+[Defining Variables](https://github.com/IvyVetor/phase-0/blob/master/week-4/defining-variables.rb)
+[Simple String Methods](https://github.com/IvyVetor/phase-0/blob/master/week-4/simple-string.rb)
+[Local Variables and Basic Arithmetical Operations](https://github.com/IvyVetor/phase-0/blob/master/week-4/basic-math.rb)
 
 
 What does `puts` do?
