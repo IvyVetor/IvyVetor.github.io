@@ -3,7 +3,7 @@
 # I worked on this challenge [by myself, with: ].
 # => by myself
 # I spent [#] hours on this challenge.
-# =>
+# =>1.5 hours
 
 # --- error -------------------------------------------------------
 
