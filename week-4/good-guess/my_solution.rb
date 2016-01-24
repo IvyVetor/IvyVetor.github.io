@@ -1,7 +1,7 @@
 # Good Guess
 
 # I worked on this challenge [by myself, with: ].
-
+# => By myself
 
 # Your Solution Below
 
