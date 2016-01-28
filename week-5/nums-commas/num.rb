@@ -26,4 +26,4 @@ def separate_comma(num)
   end
 end
 
-separate_comma(1344358)
+separate_comma(344358)
