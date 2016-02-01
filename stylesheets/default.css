@@ -22,9 +22,21 @@ a:hover {
   font-size: 20px;
 }
 .contact_img {
-  height: 5em;
+  height: 15px;
   float: left;
 }
+.subTitle {
+  font-size: 15px;
+  color: #800040;
+  text-align:center;
+}
+
+.date {
+  font-size: 15px;
+  color: #800040;
+  text-align:left;
+}
+
 footer {
   bottom: 5px;
   width: 100%;
