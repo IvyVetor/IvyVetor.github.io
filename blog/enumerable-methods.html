@@ -8,7 +8,7 @@
 <body>
 <header>
   <h1 id="homeTitle">Ivy's Blog about DBC</h1>
-  <h2>And how she survives it</h2>
+  <h2 class="subTitle">And how she survives it</h2>
   <nav>
     <ul id="ul1">
       <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/">About</a></li>
@@ -20,9 +20,9 @@
 </header>
 <section>
   <h1 id="postTitle">Partition as a Ruby Enumerable</h1>
-  <h2>February 1st, 2016</h2>
+  <h2 class="date">February 1st, 2016</h2>
   <p>We all know you came here to learn about the Ruby enumerable 'partition' since its mega-awesome!</p>
-  <p>The <a href="http://ruby-doc.org/core-2.3.0/Enumerable.html>"2.3.0 Ruby Docs</a> make it look a little scary...</p>
+  <p>The <a href="http://ruby-doc.org/core-2.3.0/Enumerable.html"><button type="button">2.3.0 Ruby Docs</button></a> don't always make perfect sense at first...</p>
   <img src="../imgs/partition_img.png">
   <img src="../imgs/what.png">
   <p>Lets look at this little block of code and break it down. The (1..6) means that the numbers 1 through 6 are in the parenthesis.  Partition in the english language means to divide into parts so we know that when we call partition on the numbers 1 through 6, they will be divided in someway.  HOW, you ask?  Time to move on to the next section of the code. <br>Between the lines is the 'v', which is a placeholder for each number in the parenthesis.  The numbers are the elements.  Next, the code asks <code>v.even?</code>.  It literally means, is the number even?</p>
