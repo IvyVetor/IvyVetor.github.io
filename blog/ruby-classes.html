@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ivy Vetor</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+<header>
+  <h1 id="homeTitle">Ivy's Blog about DBC</h1>
+  <h2 class="subTitle">And how she survives it</h2>
+  <nav>
+    <ul id="ul1">
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/">About</a></li>
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/">Home</a></li>
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/portfolio.html">Portfolio</a></li>
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section>
+  <h1 id="postTitle">CLASSES!!!</h1>
+  <h2 class="date">February 7th, 2016</h2>
+  <p>So this week I did a lot of <code>Class</code> related work.  Do I understand classes 100%?  Nope.</p>
+  <p>In fact, I'll have to update this if I catch errors in my n00b mistakes later on.</p>
+  <p>So if you know about methods like...</p>
+  <code>def age(age) <br> p "My age is #{age}"</br> end </br></br> age(26)</code>
+  <p>Then you'll ask later on what if you want to make a BUNCH of methods related to a person but don't want it within one method.  I mean, the methods could print name, age, and favorite food.  Most of the time, people's names don't change over time (unless married/legal name change but different story...) but their age changes every year and their favorite food could change from day to day!  This becomes tedious to fix per method.  SO time for a class!</p>
+  <code>
+    class person</br>
+
+      #This will give us a new person. Initialize is to signal the start of a class.</br>
+      def initialize(name)</br>
+        p name</br>
+      end</br>
+
+      #This will give us the age</br>
+      def age(year_born)</br>
+        age = (2016) - year_born</br>
+      end</br>
+
+      #This will give us their favorite food</br>
+      def favorite_food(food)</br>
+        p favorite_food</br>
+      end</br>
+    end</br></br>
+
+    #Here we are saying that jane is something to be passed through the class 'person'</br>
+    jane = person.new("Jane")</br>
+    jane.age(1979)</br>
+    jane.favorite_food("Apple Pie")</br>
+  </code>
+  <p><img src="../imgs/classroom.jpeg"></p>
+  <p>And that's what I know so far.  You could make what is called 'instance variables'.  They look like <code>@variable_name</code> with a '@' in front of them.  These are used so that the variable can be used in other methods.  In general, if you have a variable defined in one method as just a regular variable like <code> var_age = 23 </code>, you can't use it in another method UNLESS you add the '@',<code>@var_age = 23</code>.  Now you can use it in another method!</p>
+  <p>Don't try clicking the "next post" and "previous post" links yet.  They don't work.  Saving you a few seconds letting you know.
+</section>
+<nav id="postlinks">
+  <a href="#">Previous Post</a>
+  <a href="#">Next Post</a>
+</nav>
+<footer>
+    <section>
+    <p id="links">
+      <a href="https://mobile.twitter.com/IvyVetor"><img id="logo" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcSMh4YqtrRd6zruMZbQ0iFNnXOQyp0MUhfwYkOmem1uC78G7WRg"></a>
+      <a href="https://www.linkedin.com/in/ivyvetor"><img id="logo" src="http://www.scservice.com/SiteAssets/Pages/default/logo-linkedin-small.png"></a>
+      <a href="https://ivyvetor.wordpress.com/"><img id="logo" src="http://www.hostbbb.com/file.php/1/hostbbb/wordpress_icon.png"></a>
+      <a href="https://github.com/IvyVetor"><img id="logo" src="https://scan.coverity.com/assets/GitHub-Mark-32px-118dd57243de3bb50984e51a14f61522.png"></a>
+    </p>
+  </section>
+  <p id="copyright"> &#9400; 2016 Ivy Vetor</p>
+</footer>
+</body>
+</html>
