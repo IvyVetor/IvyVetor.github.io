@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+  <title>Ruby vs JavaScript</title>
+</head>
+
+<body>
+  <table>
+    <h1>Ruby vs JavaScript</h1>
+    <p>So going back and forth between computer languages can have a bad effect on remembering which language uses that syntax or that language uses this syntax</p>
+    <p>You know you need help when your Ruby program is asking why you have a bunch of semicolons and your JavaScript program is asking what the heck <code>def fizzbuzz num</code> is supposed to do.</p>
+    <p>For this reason, my cheatsheet will be comparing the two languages and referencing how to do what.  For simplicity's sake, I'm only doing one way to define variables, objects, functions and so on in my preferential way.</p>
+    <tr>
+      <th>Thing to Compare</th>
+      <th>Ruby</th>
+      <th>JavaScript</th>
+    </tr>
+    <tr>
+      <td>Link to Docs</td>
+      <td><a href="http://ruby-doc.org/core-2.2.1/">Ruby 2.2.1 Doc</a></td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Mozilla Docs</a></td>
+    </tr>
+    <tr>
+      <td>Printing to the Console</td>
+      <td><code>print / puts / put / p</code></td>
+      <td><code>document.write(); / console.log();<code></td>
+    </tr>
+    <tr>
+      <td>Variables</td>
+      <td><code>my_variable = "..."</code></td>
+      <td><code>var myVariable = "..."<code></td>
+    </tr>
+    <tr>
+      <td>Branching</td>
+      <td><code>if var == 1/elsif var == 2/else/end</code></td>
+      <td><code>if (var === 1)/else if (var === 2)/else<code></td>
+    </tr>
+    <tr>
+      <td>Loops</td>
+      <td><code>counter = 0</br>while counter &lt; 5</br>&nbsp;counter += 1</br>end</br></br>array.each do |thing|</br>&nbsp;puts thing</br>end </code></td>
+      <td><code>counter = 0</br>while (counter &lt; 5){</br>&nbsp;counter++;</br>};</br></br>for (var i = 0; i &lt; 5; i++){<br>&nbsp;console.log(i);</br>}</code></td>
+    </tr>
+    <tr>
+      <td>Hashes/Objects</td>
+      <td><code>my_hash = {"dog" => 10, "cat" => 3, "fish" => 12}</code></td>
+      <td><code>var anObject = {dog: "Jerry", cat: "Scotty", fish: "Boyd"}</code></td>
+    </tr>
+    <tr>
+      <td>Functions</td>
+      <td><code>def my_function</br>end</code></td>
+      <td><code>var myFunction = function(){</br>};</code></td>
+    </tr>
+  </table>
+  <p class="back"><a href="ivyvetor.github.io/projects/">Back</a></p>
+  <footer>&#9400; 2016 Ivy Vetor</footer>
+</body>
+
+</html>
