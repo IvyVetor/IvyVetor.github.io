@@ -43,6 +43,7 @@ footer {
   height: 7em;
   border: 2px solid #FF69B4;
   clear:both;
+  margin-top: 85%;
 }
 #links {
   text-align: center;
@@ -52,5 +53,8 @@ footer {
   width: 31px;
 }
 #copyright {
+  text-align: center;
+}
+img {
   text-align: center;
 }

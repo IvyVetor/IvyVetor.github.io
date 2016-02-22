@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ivy Vetor</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+<header>
+  <h1 id="homeTitle">Ivy's Blog about DBC</h1>
+  <h2 class="subTitle">And how she survives it</h2>
+  <nav>
+    <ul id="ul1">
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/about.html">About</a></li>
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/">Home</a></li>
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/projects/index.html">Projects</a></li>
+      <li id="li1"><a id="navlink" href="https://ivyvetor.github.io/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section>
+  <h1 id="postTitle">Sorting Methods!</h1>
+  <h2 class="date">February 22nd, 2016</h2>
+  <p>In this particular case, I will be talking about three specific methods, Bubble sort, Quicksort, and Merge sort.</p>
+  <h3>Bubble Sort</h3>
+  <p>I'm a strong believer in visuals so to commence...</p>
+  <p><img src="../imgs/Bubble-sort-example-300px.gif"><p>
+  <p>As the visual is showing, the Bubble sort compares through each pair all the way to the end.  If not fully sorted, will start over.</p>
+  <p>The quickest and most efficient method is desirable so how does this sorting method fare compare to others? Fares okay when the amount of numbers to sort is small.  Big amounts of numbers, no.</p>
+  </br><h3>Quicksort</h3>
+  <p>No, its not a typo.  Its spelled 'Quicksort'.</p>
+  <p><img src="../imgs/Quicksort.png"></p>
+  <p>Quicksort acts like a partitioning type of method where it divides numbers into a low and high sections.  It will pick the last number and move numbers to the left and right based on the relation to the number picked.  In this image, the last number is four.  Eight, nine, five, and seven are moved to the right since they are higher.  The numbers are then divided for further sorting.</p>
+  <p>Again, the last number is picked.  Two is 'last' and three is moved to the right which sorts that area.  On the right-hand side of the four, the numbers are sorted a little further.  Once all the partitions are sorted, the job is complete.</p>
+  <p>Quicksort is faster and saves space (in-place sorting) while Merge sort, which I will discuss next, requires space to run its calculations.  However, there are times when Merge sort will be the preferred method, as when there are an inordinate amounts of numbers.</p>
+  </br><h3>Merge Sort</h3>
+  <p>A Merge Sort is a "divide and conquer" sort of method.  It divides the amount of numbers into the smallest amount (one) and then compares itself with its neighbors to know where to go in the next step.  Proceed with viewing the gif below.
+  <p><img src="../imgs/merge-sort-example-300px.gif"></p>
+  <p>Merge sort fares very well even with large amounts of numbers.  In fact, in the worst case where sorting is not easy, it still performs 39% fewer comparisons than Quicksort!</p>
+  <h6>source: Wikipedia, StackExchange<h6>
+</section>
+<nav id="postlinks">
+  <a href="https://ivyvetor.github.io/blog/ruby-classes.html">Previous Post</a>
+  <a href="#"></a>
+</nav>
+<footer>
+    <section>
+    <p id="links">
+      <a href="https://mobile.twitter.com/IvyVetor"><img id="logo" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcSMh4YqtrRd6zruMZbQ0iFNnXOQyp0MUhfwYkOmem1uC78G7WRg"></a>
+      <a href="https://www.linkedin.com/in/ivyvetor"><img id="logo" src="http://www.scservice.com/SiteAssets/Pages/default/logo-linkedin-small.png"></a>
+      <a href="https://ivyvetor.wordpress.com/"><img id="logo" src="http://www.hostbbb.com/file.php/1/hostbbb/wordpress_icon.png"></a>
+      <a href="https://github.com/IvyVetor"><img id="logo" src="https://scan.coverity.com/assets/GitHub-Mark-32px-118dd57243de3bb50984e51a14f61522.png"></a>
+    </p>
+  </section>
+  <p id="copyright"> &#9400; 2016 Ivy Vetor</p>
+</footer>
+</body>
+</html>

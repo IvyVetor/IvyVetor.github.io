@@ -1,10 +1,41 @@
-body {margin: 15px 15px 15px 15px;}
-.back {font-size: 40px; color: #FF69B4; text-align: center;}
-a {text-decoration: none;}
-a:hover {color: #FF69B4; text-decoration: none;}
-h1 {color:#FF69B4;}
-table, td, th {border: 1px solid black;}
-table {border-collapse: collapse; width: 90%; margin-left: 5%; margin-right: 5%}
-th {height: 50px; background-color: #FF69B4;}
-td {height: 25px; vertical-align: bottom;}
-footer {clear: both; margin-top: 90%; text-align: center;}
+body {
+  margin: 15px 15px 15px 15px;
+}
+.back {
+  font-size: 40px;
+  color: #FF69B4;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #FF69B4;
+  text-decoration: none;
+}
+h1 {
+  color:#FF69B4;
+}
+table, td, th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+th {
+  height: 50px;
+  background-color: #FF69B4;
+}
+td {
+  height: 25px;
+  vertical-align: bottom;
+}
+footer {
+  clear: both;
+  margin-top: 90%;
+  text-align: center;
+}
