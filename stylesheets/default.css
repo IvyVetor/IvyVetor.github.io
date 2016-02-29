@@ -1,4 +1,4 @@
-#homeTitle {
+.homeTitle {
   text-align: center;
 }
 .main {
@@ -26,7 +26,7 @@ a {
   font-size: 25px;
 }
 a:hover {
-  color: black;
+  color: #ff0dbf;
 }
 .contact_img {
   height: 15px;
@@ -50,7 +50,7 @@ footer {
   height: 7em;
   border: 2px solid #FF69B4;
   clear:both;
-  margin-top: 75%;
+  margin-top: 85%;
 }
 #links {
   text-align: center;
