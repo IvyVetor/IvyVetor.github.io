@@ -1,6 +1,13 @@
 #homeTitle {
   text-align: center;
 }
+.main {
+  width: 800px;
+  margin: 0 auto;
+}
+p {
+  font-size: 25px;
+}
 nav {
   text-align: center;
   border: 2px solid #FF69B4;
@@ -19,7 +26,7 @@ a {
   font-size: 25px;
 }
 a:hover {
-  font-size: 20px;
+  color: black;
 }
 .contact_img {
   height: 15px;
@@ -43,7 +50,7 @@ footer {
   height: 7em;
   border: 2px solid #FF69B4;
   clear:both;
-  margin-top: 85%;
+  margin-top: 75%;
 }
 #links {
   text-align: center;
